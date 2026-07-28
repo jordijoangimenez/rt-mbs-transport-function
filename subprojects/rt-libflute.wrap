@@ -4,7 +4,7 @@
 # jordijoangimenez/rt-libflute#fix/fdt-unbounded-growth-on-resend), not yet upstreamed to
 # 5G-MAG/rt-libflute. Revert to a 5G-MAG tag once that fix is merged there and released.
 url = https://github.com/jordijoangimenez/rt-libflute.git
-revision = 3bd8d17
+revision = f8f4991
 method = cmake
 
 #diff_files = rt-libflute/IpSec-xfrm_algo.patch
