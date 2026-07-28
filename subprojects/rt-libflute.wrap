@@ -1,6 +1,10 @@
 [wrap-git]
-url = https://github.com/5G-MAG/rt-libflute.git
-revision = rt-libflute-0.12.3
+# Temporarily pinned to a fork commit carrying a fix for unbounded FDT growth on repeated
+# sends of the same TOI (see jordijoangimenez/rt-libflute#fix/fdt-unbounded-growth-on-resend),
+# not yet upstreamed to 5G-MAG/rt-libflute. Revert to a 5G-MAG tag once that fix is merged
+# there and released.
+url = https://github.com/jordijoangimenez/rt-libflute.git
+revision = c7ec6da
 method = cmake
 
 #diff_files = rt-libflute/IpSec-xfrm_algo.patch
